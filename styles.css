@@ -1,0 +1,21 @@
+.shift  {
+    transform: translate(120px, 30px);
+}
+.center {
+    translate: 300px;
+}
+.down_tab{
+    transform: translate(0px, -100px);
+}
+.front {
+    transform: translate(100px, 0px);
+}
+
+.left_jump {
+    transform: translate(550px, -47px);
+}
+
+.left_jump_jump {
+        transform: translate(950px, -92px);
+}
+
