@@ -216,7 +216,7 @@ var width = 1000,
 
 var svg = d3.select("body").append("svg")
         .attr("width", width)
-        .attr("height", height).attr('transform', 'translate(250,10)');;
+        .attr("height", height).attr('transform', 'translate(250,-50)');;
 
 
 
