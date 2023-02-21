@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reinforcement Leanring Vizualization Test 1</title>
+        <!--import the libraries needed-->
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        <script src="https://d3js.org/d3-path.v2.min.js"></script>
+        <script src="https://d3js.org/d3-shape.v2.min.js"></script>
+        <script src="https://d3js.org/topojson.v1.min.js"></script>
+        <script src="https://d3js.org/d3-array.v2.min.js"></script>
+        <script src="https://d3js.org/d3-geo.v2.min.js"></script>
+        <script src="https://d3js.org/d3-geo-projection.v3.min.js"></script>
+        <script src="https://unpkg.com/react/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/babel-standalone/babel.js"></script>
+        <script src="https://unpkg.com/d3-simple-slider"></script>    
+    </head>
+        
+    <body style = 'background-color: rgb(53,50,50);'>
+        <h1 style ='color:white'> Deep Learning Reinforcement Learning Vizualization Shell</h1>
+
+
+        <div id="scatter"></div>
+        <script src='scatter_plot.js' type='text/babel'></script>
+        <h1 style ='color:white'>Neural Network Model Developement:</h1>
+        <h2 style ='color:white' class="front">Input Layer:</h2>
+        <h2 style ='color:white' class="left_jump">Hidden Layer:</h2>
+        <h2 style ='color:white'class="left_jump_jump">Hidden Layer2:</h2>
+        <div class = 'down_tab'>
+            <div class = 'shift'>
+                <div id ='slider-step_hidden'></div>
+            </div>
+            <div id="center">
+                <div id="mm"></div>
+            </div>
+        </div>
+        <script src='model.js' type="text/babel"></script>  
+        
+
+    </body>
+
+    
+</html>
